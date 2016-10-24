@@ -1,0 +1,285 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Long Professional Curriculum Vitae
+% LaTeX Template
+% Version 1.1 (9/12/12)
+%
+% This template has been downloaded from:
+% http://www.latextemplates.com
+%
+% Original author:
+% Rensselaer Polytechnic Institute (http://www.rpi.edu/dept/arc/training/latex/resumes/)
+%
+% Important note:
+% This template requires the res.cls file to be in the same directory as the
+% .tex file. The res.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[10pt]{res} % Use the res.cls style, the font size can be changed to 11pt or 12pt here
+\usepackage[utf8]{inputenc} %codification, acentos y demas...
+
+\usepackage{helvet} % Default font is the helvetica postscript font
+%\usepackage{newcent} % To change the default font to the new century schoolbook postscript font uncomment this line and comment the one above
+
+\newsectionwidth{0pt} % Stops section indenting
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	YOUR NAME AND ADDRESS(ES) SECTION
+%----------------------------------------------------------------------------------------
+
+\name{Sergio Paracuellos Gutiérrez\\ \\} % Your name at the top
+
+% If you don't want one of the addresses, simply remove all the text in the first or second \address{} bracket
+
+\address{ Avenida Tenor Fleta 58, 7ºC\\ 50007, Zaragoza\\ (+34) 655545852} % Your address 2
+
+%----------------------------------------------------------------------------------------
+
+\begin{resume}
+
+%----------------------------------------------------------------------------------------
+%	OBJECTIVE SECTION
+%----------------------------------------------------------------------------------------
+
+%\section{\centerline{OBJETIVO}}
+
+%\vspace{8pt} % Gap between title and text
+
+%Formar parte de la plantilla del Centro de Respuesta a incidentes en Tecnológias de la información (INTECO-CERT) con el fin de
+%aprender y desarrollar mis capacidades en el ámbito de la seguridad informática.\\ 
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{\centerline{FORMACIÓN}} 
+
+\vspace{8pt} % Gap between title and text
+
+{\sl Graduado de Japonés}, 
+Kyoto Institute of Culture and Language \\ 
+24 Kamihate-cho, Kitashirakawa, Sakyo-ku, Kyoto, 606-8252 JAPAN \hfill Marzo 2009 - Julio 2010 
+ 
+{\sl Direccion y Gestion de las TIC}, MBA-TECH\\ 
+Universidad de San Jorge Parque Tecnológico Walqa, 22197 Huesca \hfill Enero 2008 - Junio 2008
+
+{\sl Certificacion ITIL version 3} \\ 
+Exin: Examination Institute for Information Science \hfill Marzo 2008
+
+{\sl Cursando las últimas 2 asignaturas en Ingenieria Informatica (Acceso a segundo ciclos)} \\
+Universidad de Zaragoza, Zaragoza \hfill Septiembre 2003 - Actualidad
+
+{\sl Ingeniería Técnica en Informática de Sistemas} \\
+Escuela Universitaria Politécnica de la Almunia de Doña Godina, Zaragoza \hfill Septiembre 2003
+
+{\sl I Jornadas Aragonesas de Aplicaciones Distribuidas J2EE y WebServices} \\
+Escuela Universitaria Politécnica de la Almunia de Doña Godina, Zaragoza \hfill Diciembre 2002 (56 horas)
+
+{\sl Curso de Autocad v.12} \\
+Colegio Sagrado Corazón de Jesús, Zaragoza \hfill Junio 1996 (130 horas)
+
+{\sl Curso de Programación e introducción a las telecomunicaciones} \\
+CLD División Informática, Zaragoza \hfill Mayo 1994 (60 horas)
+
+{\sl Curso de Sistemas Operativos y Programación en DBASE IV} \\
+CLD División Informática, Zaragoza \hfill Mayo 1993 (60 horas)
+
+%----------------------------------------------------------------------------------------
+ 
+\vspace{0.2in} % Some whitespace between sections
+
+%----------------------------------------------------------------------------------------
+%	PROFESSIONAL EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{\centerline{EXPERIENCIA LABORAL}} 
+
+\vspace{8pt} % Gap between title and text
+
+{\sl Cemitec} \hfill Enero 2016 -- Actualidad\\
+\hfill Ingeniero de software embebido
+\begin{itemize} \itemsep -2pt % Reduce space between items
+\item Desarrollo de BSP's usando GNU/Linux: yocto, debian, ubuntu etc: MX6, Beaglebone black...
+\item Modificación y desarrollo de módulos para el kernel de linux.
+\item Desarrollo de aplicaciones firmware para cliente: protocolo + GUI: C, C++, Qt5. 
+\end{itemize}
+
+{\sl Scati Labs S.L.} \hfill Septiembre 2013 -- Diciembre 2015\\
+\hfill Ingeniero de desarrollo y QA
+\begin{itemize} \itemsep -2pt % Reduce space between items
+\item Aseguramiento de la calidad del producto en diversos niveles: código fuente, funcionalidad, escalabilidad...
+\item Revisiones de código C++ y python (entre otros) haciendo uso de reviewboard.
+\item Monitorizacion de sistemas Linux/Windows (PRTG/Icinga). Desarrollo de multiples scripts para realizar estas labores (bash,perl, python).
+\item Automatizacion de tests de rendimiento y funcionalidad en entornos windows/linux.
+\item Desarrollo no trivial de test de unidad con gtest y gmock en C++.
+\item Desarrollo de funcionalidades del producto de acuerdo a las necesidades del cliente (C++ y python). 					
+\item Desarrollo de soluciones de compilación C++ haciendo uso de cmake tanto en windows como en linux.
+\item Desarrollo de soluciones con WebServices usando las librerias de gsoap en C++ (integración onvif, servicios propios).
+\item Migración de los repositorios de la empresa (más de 11 años) de cvs a git.
+\end{itemize}
+
+{\sl Zitralia Seguridad Informática S.L.} \hfill Febrero 2010 -- Mayo 2013\\
+\hfill Ingeniero de desarrollo
+\begin{itemize} \itemsep -2pt % Reduce space between items
+\item Desarrollo de un rootkit cuyo objetivo consistía en obtener toda la información posible sobre la operación de un ordenador objetivo, con sistema operativo Linux, y transmitirla en tiempo real a algún otro lugar donde pudiera ser analizada.
+\item Desarrollo de sistema operativo basado en ubuntu GNU/Linux a medida desde cero (debootstrap). 
+\item Desarrollo de programas para dicho sistema operativo utilizando perl, C, bash y GTK+ entre otros.
+\item Desarrollo de herramienta de grabacion de dicho sistema en un pendrive para entornos GNU/Linux (perl + GTK) y Windows (Windows MFC + colinux) haciendo uso de cifrado mediante LUKS en sus particiones. 
+\item Adaptacion del Escritorio XFCE 4.10 para dicho sistema.
+\item Adaptaciones de dicho sistema para poder ser arrancado como un programa mas en un entorno windows utilizando virtualbox en modo headless. Aplicacion de validacion propia usando los widgets MFC Windows.
+\item Desarrollo de herramienta web utilizando php / webmin / bases de datos mysql para la configuracion y generacion de dicho sistema operativo "a la carta".
+\item Adaptacion del sistema para poder ser usado en la nube usando guacamole para HTML5 y Ulteo sobre éste (RDP).
+\item Tareas propias de la administracion de sistemas UNIX/Linux para dar soporte a los distintos proyectos (automatizacion de tareas, copias de seguridad ...). 
+\item Desarrollo de aplicacion relacionada con la industria farmaceútica para smartphones tanto para android como para iphone e ipad.
+\end{itemize}
+
+{\sl Reponedor / tareas varias supermercado en Kyoto (Japón)} \hfill Diciembre 2009 -- Octubre 2010\\
+\begin{itemize} \itemsep -2pt % Reduce space between items
+\item Todo tipo de tareas de manipulacion de verduras, pescados, carnes...
+\item Reponedor en tienda y almacén.
+\item Carga y distribución de caminones.
+\end{itemize} 
+
+{\sl Zitralia Seguridad Informatica S.L} \hfill Julio 2005 -- Marzo 2009\\
+\hfill Ingeniero de desarrollo
+\begin{itemize} \itemsep -2pt % Reduce space between items
+\item Programación en C y kernel de linux realizando un sistema de ficheros cifrado usando Fist. 
+\item Desarrollo de modulos del kernel para autenticacion, modificacion de tramas de red, distintos usos de la cryptoAPI, funciones propias del sistema
+de ficheros y del sistema de memoria del kernel.  
+\item Scripting en bash, perl para diversas tareas y automatizaciones. 
+\item Desarrollos en perl de herramientas tanto en modo consola como grafico (GTK+). 
+\item Adminitracion servidores GNU/Linux para dar apoyo a los distintos proyectos (subversion, firewall, apache, dhcp, postfix...)
+\end{itemize}
+
+{\sl Escuela Universitaria Politécnica de la Almunia de Doña Godina} \hfill Septiembre 2002 -- Julio 2003\\
+\hfill Programador Proyecto Fin de Carrera
+\begin{itemize} \itemsep -2pt % Reduce space between items
+\item Desarrollo de un compilador con lenguaje de entrada java y plataforma destino .NET usando la framework de java sableCC 3.0. Fue desarrollado desde la gramatica hasta la generacion de codigo intermedio IL para la plataforma .NET y funcionó tanto en Linux (proyecto mono) como en Windows (.NET).
+\item Este desarrollo fue mi proyecto fin de carrera y obtuvo la calificacion de sobresaliente.
+\end{itemize}
+
+%----------------------------------------------------------------------------------------
+
+\vspace{0.2in} % Some whitespace between sections
+
+%----------------------------------------------------------------------------------------
+%	LENGUAJES DE PROGRAMACION
+%----------------------------------------------------------------------------------------
+
+\section{\centerline{LENGUAJES DE PROGRAMACIÓN}}
+
+\vspace{15pt} % Gap between title and text
+\begin{itemize} \itemsep -2pt % Reduce space between items
+\item C++, C, Perl, Java, Ada, Python, C\# y Component Pascal.
+\item Librerias graficas: GTK+ (C, C\#, Perl y Python), Windows MFC.
+\item Programación de scripts: bash, perl, python.
+\item Programación Web: PHP (PHP Hypertext Preprocessor), MySQL, HTML y CSS (Cascading Style Sheets).
+\item Desarrollo de aplicaciones moviles: Conocimientos de android, XCODE 4 (iOS).
+\end{itemize}
+
+%----------------------------------------------------------------------------------------
+
+\vspace{0.2in} % Some whitespace between sections
+
+%----------------------------------------------------------------------------------------
+%	SSOO
+%----------------------------------------------------------------------------------------
+
+\section{\centerline{SISTEMAS OPERATIVOS}} 
+
+\vspace{15pt} % Gap between title and text
+\begin{itemize} \itemsep -2pt % Reduce space between items
+\item Debian GNU/Linux (y derivados Ubuntu...): conocimientos usuario avanzado y administración.
+\item Fedora Core desde version 3 hasta hoy / CentOS: conocimientos usuario avanzado y administración.
+\item FreeBSD: conocimientos de usuario.
+\item Windows 98/2000/XP/7: conocimientos de usuario y administración.
+\item MacOS X: conocimientos de usuario y administración.
+\end{itemize}
+
+%----------------------------------------------------------------------------------------
+
+\vspace{0.2in} % Some whitespace between sections
+
+%----------------------------------------------------------------------------------------
+%	TRabajo en GRUPO
+%----------------------------------------------------------------------------------------
+
+\section{\centerline{HERRAMIENTAS DE TRABAJO EN GRUPO}} 
+\vspace{15pt} % Gap between title and text
+\begin{itemize} \itemsep -2pt % Reduce space between items
+\item GIT, subversion (SVN), CVS: Sistemas de control de versiones.
+\item Bugzilla, Mantis, Redmine, Jira: Adminitración de Tareas y proyectos.
+\item Wiki, Confluence: Coordinación a través de web.
+\end{itemize}
+
+%----------------------------------------------------------------------------------------
+
+\vspace{0.2in} % Some whitespace between sections
+
+\section{\centerline{CREACIÓN DE DOCUMENTACIÓN}} 
+\vspace{15pt} % Gap between title and text
+\begin{itemize} \itemsep -2pt % Reduce space between items
+\item Creación de documentos XML, SGML y LATEX.
+\item Experiencia con el DTD Docbook.
+\end{itemize}
+
+
+%----------------------------------------------------------------------------------------
+
+\vspace{0.2in} % Some whitespace between sections
+
+\section{\centerline{ADMINISTRACIÓN DE REDES}} 
+\vspace{15pt} % Gap between title and text
+\begin{itemize} \itemsep -2pt % Reduce space between items
+\item Administración de Servidores Apache: configuración básica, dominios virtuales, seguridad...
+\item Servicios de Red: OpenSSH, FTP, DHCP...
+\item Administración de un servidor propio con varios servicios de red con 25 usuarios desde el año 2002-2009. Correo (POP3, SMTP, mailman), servidor web (apache), firewall (iptables), Control de versiones para pequeños proyectos de software libre, cuentas de usuario, copias de seguridad...
+\end{itemize}
+
+%----------------------------------------------------------------------------------------
+%	IDIOMAS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{\centerline{IDIOMAS}} 
+\vspace{15pt} % Gap between title and text
+
+\begin{itemize}
+\item Inglés: Nivel medio-alto oral y escrito. Estancia varios meses en Irlanda e Inglaterra con familias nativas. Certificado de nivel inglés nivel intermedio oral y escrito otorgado por Carraig Linguistic Services en Cork, irlanda.
+\item Japonés: Nivel medio-alto oral y medio escrito. Aprendiendo desde Octubre 2007-Actualidad. Estancia de casi dos años en Kyoto. JLPT (Japanese-Language Profilence Test): N2.
+\end{itemize}
+
+%----------------------------------------------------------------------------------------
+
+\vspace{0.2in} % Some whitespace between sections
+
+\section{\centerline{OTROS}} 
+\vspace{15pt} % Gap between title and text
+
+\begin{itemize}
+\item Carnet de conducir clase B y vehiculo propio.
+\end{itemize}
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{\centerline{OTRAS ACTIVIDADES DE INTERES}} 
+\vspace{15pt} % Reduce space between section title and contents
+\begin{itemize}
+\item Gran amante de la guitarra flamenca y practicante desde Octubre del 2004.
+\item Miembro activo del Grupo de Usuarios de Linux de La Almunia (2000-2005).
+\item Miembro del Grupo de Usuarios de la asociación Hispalinux desde 2002.
+\item Colaboración con la organización del V Congreso Hispalinux, realizado en la UAM (Universidad Autónoma de Madrid).
+\end{itemize} 
+
+%----------------------------------------------------------------------------------------
+
+\end{resume} 
+\end{document}
