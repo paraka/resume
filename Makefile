@@ -1,5 +1,5 @@
-ES_FILE=curriculum_sergio
-EN_FILE=curriculum_sergio_ingles
+ES_FILE=resume_es_sergio_paracuellos
+EN_FILE=resume_en_sergio_paracuellos
 PDFLATEX=pdflatex
 
 all: $(ES_FILE).pdf $(EN_FILE).pdf
